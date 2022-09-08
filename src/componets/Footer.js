@@ -21,21 +21,21 @@ const Footer = () =>{
                     <div className="footer-accept">
                         <input type="checkbox"></input>
                         <p>Al suscribirte aceptas 
-                            <a>términos y condiciones y políticas de privacidad</a>
+                            <button>términos y condiciones y políticas de privacidad</button>
                             </p>
                     </div>
 
                 </div>
                 <div className="footer-col">
-                    <a className="footer-link">Servicio al cliente</a>
-                    <a className="footer-link">Nuestras tiendas</a>
-                    <a className="footer-link">Superintendencia de Industria y Comercio</a>
-                    <a className="footer-link"> <span></span>  Colombia ></a>
+                    <button>Servicio al cliente</button>
+                    <button> Nuestras tiendas</button>
+                    <button>Superintendencia de Industria y Comercio</button>
+                    <button className="footer-link"> <span></span>  Colombia ></button>
                 </div>
                 <div className="footer-col">
                     <p className="footer-txt">Medios de pago</p>
-                    <img src={Pagos}/>
-                    <img src={Social}/>
+                    <img src={Pagos} alt="mario hernandez"/> 
+                    <img src={Social} alt="mario hernandez"/>
                     <p className="footer-txt">Contáctanos de Lunes a Viernes <br></br> de 8:00am a 4:00pm</p>
                 </div>
             </div>
