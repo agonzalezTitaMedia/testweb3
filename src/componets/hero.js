@@ -4,6 +4,7 @@ import genesis from "../assets/genesis.png"
 import MainBtn from "./MainBtn";
 import imageNft from "../assets/example-nft.jpg"
 import ScrollDown from "../assets/scroll-down.svg"
+import ModalForm from "./ModalForm"
 
 const Hero = ({connected,ethBalance,listNft})=>{
     
@@ -29,20 +30,31 @@ const Hero = ({connected,ethBalance,listNft})=>{
 
                     </div>
                     <p>saldo Eth: {ethBalance}</p>
-                    <p>Tus Nfts :</p>
-                    {listNft.map((data,index)=>{
-                      var idLast =  data.slice(-1)
-                        return(
-                            <a 
-                            key={index}
-                            target="_blank"
-                            href={'https://testnets.opensea.io/assets/rinkeby/0x12f03749c6b06d6751e3c41a51c60d685ad40056/' +  idLast}
-                            >
-                                {idLast}
-                            </a>
-                        )
-                    })}
-                    <p></p>
+
+                    {listNft.length === 0 ? (<><p> No tienes Nfts de esta coleccion</p></>)
+                    :
+                    (
+                        <> 
+                            <ModalForm />
+                            <p>Tus Nfts :</p>
+                            {listNft.map((data,index)=>{
+                            var idLast =  data.slice(-1)
+                                return(
+                                    <a 
+                                    key={index}
+                                    target="_blank"
+                                    href={'https://testnets.opensea.io/assets/rinkeby/0x12f03749c6b06d6751e3c41a51c60d685ad40056/' +  idLast}
+                                    >
+                                        {idLast}
+                                    </a>
+                                )
+                            })}
+                        </>  
+                    )
+                      
+                }
+                    
+                    
 
                      
                 </>

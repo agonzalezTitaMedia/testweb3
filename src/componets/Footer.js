@@ -34,7 +34,7 @@ const Footer = () =>{
                 </div>
                 <div className="footer-col">
                     <p className="footer-txt">Medios de pago</p>
-                    <img src={Pagos} alt="mario hernandez"/> 
+                    <img src={Pagos} alt="mario hernandez"/>    
                     <img src={Social} alt="mario hernandez"/>
                     <p className="footer-txt">Contáctanos de Lunes a Viernes <br></br> de 8:00am a 4:00pm</p>
                 </div>
