@@ -310,8 +310,8 @@ body{
     padding: 42px 0;
   }
   &-wrapTimeLine{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
     width: 80%;
     margin: 21px auto;
   }
@@ -324,21 +324,41 @@ body{
   &-stepTimeLine{
     display: flex;
     align-items: flex-start;
-    margin: 0 0 21px 0;
-    &--right{
-      flex-flow: row-reverse;
-      margin: 35px 0 0 0;
+  
+    &--uno{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      border-right: 1px solid #b7812c;
+    }
+    &--dos{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      flex-direction: row-reverse;
+      margin: 40px 0 0 0;
       .evolution-indicatorTimeLine{
         flex-flow: row-reverse;
+        margin: 21px 14px 0 0;
       }
-      .evolution-wrapTxtTimeLine{
-        width: calc(100% - 100px);
-        margin: 0 0 0 23px;
+    }
+    &--tres{
+      grid-column: 1/2;
+      grid-row: 2/3;
+      border-right: 1px solid #b7812c;
+    }
+    &--cuatro{
+      grid-column: 2/3;
+      grid-row: 2/3;
+      flex-direction: row-reverse;
+      margin: 40px 0 0 0;
+      .evolution-indicatorTimeLine{
+        flex-flow: row-reverse;
+        margin: 21px 14px 0 0;
       }
     }
   }
   &-wrapTxtTimeLine{
     width: calc(100% - 123px);
+    margin: 0 0 35px 0;
   }
   &-indicatorTimeLine{
     width: 123px;
@@ -459,7 +479,7 @@ footer{
     margin: 35px auto;
     display: flex;
     justify-content: space-between;
-    @include md2{
+    @include media(805px){
       flex-direction: column;
     }
   } 
@@ -477,7 +497,7 @@ footer{
       align-items: flex-start;
       justify-content: space-between;
     }
-    @include md2{
+    @include media(805px){
       width: 100%;
     }
   }
