@@ -44,10 +44,13 @@ const ModalForm = () => {
                 <form>
                     <label>Nombre Y aplellido</label>
                     <input type="text" placeholder="Escribe tu nombre y apellido"/>
+                    <div className="form-error">Campo obligatorio</div>
                     <label>Correo electrónico:</label>
                     <input type="text" placeholder="Escribe el correo electrónico"/>
+                    <div className="form-error">Campo obligatorio</div>
                     <label>Celular:</label>
                     <input type="text" placeholder="Escribe el número de celular"/>
+                    <div className="form-error">Campo obligatorio</div>
                     <button className="thirdBtn"
                     onClick={ ()=> { setModal(0)}}
                     >Enviar Mis datos</button>

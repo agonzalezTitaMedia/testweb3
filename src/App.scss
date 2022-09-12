@@ -1,5 +1,16 @@
 $mainColor : #0F0F17;
 
+@mixin md2 {
+  @media(max-width: 767px){
+      @content;
+  }
+}
+
+@mixin media ($ancho){
+  @media(max-width: $ancho){
+      @content;
+  }
+}
 
 @font-face {
   font-family: 'Capitanejo-BT';
@@ -134,6 +145,7 @@ body{
   &-wrap{
     width: 100%;
     min-height: 600px;
+    
     &--zafiro{
       display: flex;
       width: 90%;
@@ -142,21 +154,43 @@ body{
       background: #121225;
       .slide-col:nth-child(1){
           width: 60%;
+          @include md2{
+            width: 90%;
+          }
       }
       .slide-col:nth-child(2){
         width: 40%;
+        @include md2{
+          width: 90%;
+        }
       }
     }
     &--indigo{
       display: flex;
       width: 90%;
       margin: auto;
+      @include md2{
+        flex-flow: column !important;
+      }
       .slide-col:nth-child(1){
         width: 40%;
+        @include md2{
+          width: 90%;
+        }
+      }
+      .slide-col:nth-child(2){
+        width: 60%;
+        @include md2{
+          width: 90%;
+        }
+      }
     }
-    .slide-col:nth-child(2){
-      width: 60%;
-    }
+    @include md2{
+      flex-flow: column-reverse;
+      align-items: center;
+      padding: 35px 0;
+      width: 100%;
+      margin: auto;
     }
   }
   &-col{
@@ -214,6 +248,9 @@ body{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
+    @include md2{
+      height: auto;
+    }
   }
   &-rowTop{
     max-width: 800px;
@@ -232,15 +269,26 @@ body{
   &-title{
     font-size: 40px;
     text-align: center;
+    @include md2{
+      width: 90%;
+      margin: auto;
+    }
   }
   &-txt{
     text-align: center;
+    @include md2{
+      width: 90%;
+      margin: auto;
+    }
   }
   &-wrapColBottom{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 35px auto;
+    @include md2{
+      flex-direction: column;
+    }
   }
   &-subTitle{
     text-align: center;
@@ -343,11 +391,17 @@ body{
     justify-content: space-between;
     width: 80%;
     margin: 0 auto 35px;
+    @include md2{
+      flex-flow: column;
+    }
   }
   &-col{
     display: flex;
     width: 30%;
     justify-content: space-between;
+    @include md2{
+      width: 100%;
+    }
     .definition-subTitle{
       margin: 0;
       text-align: left;
@@ -405,8 +459,10 @@ footer{
     margin: 35px auto;
     display: flex;
     justify-content: space-between;
-   
-  }
+    @include md2{
+      flex-direction: column;
+    }
+  } 
   &-col{
     width: 32%;
     &:nth-child(2){
@@ -420,6 +476,9 @@ footer{
       flex-flow: column;
       align-items: flex-start;
       justify-content: space-between;
+    }
+    @include md2{
+      width: 100%;
     }
   }
   &-txt{
@@ -528,6 +587,9 @@ footer{
     color: #0F0F17;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
+    .thirdBtn{
+      margin: 21px auto 0;
+    }
     &__data{
       min-height: 300px;
       height: auto;
@@ -552,6 +614,13 @@ footer{
     right: 7px;
     position: absolute;
     cursor: pointer;
+    transition: .3s;
+    &:hover{
+      transform: rotate(180deg);
+    }
+    img{
+      display: block;
+    }
   }
   &-title{
     font-weight: 700;
@@ -565,6 +634,10 @@ footer{
     display: inline-block;
     vertical-align: middle;
     margin: 0 7px 0 0;
+  }
+  &-error{
+    font-size: 10px;
+    color: #FF2D2D;
   }
 }
 /* elementos*/

@@ -1,0 +1,11 @@
+@mixin md2 {
+    @media(max-width: 767px){
+        @content;
+    }
+}
+
+@mixin media ($ancho){
+    @media(max-width: $ancho){
+        @content;
+    }
+}
