@@ -9,7 +9,7 @@ const Definition = () => {
                 <div className="definition-rowTop">
                     <img src={butterfly} alt='nft Mario Hernandez' className="definition-butterfly" />
                     <h3 className="definition-title">¿Qué son los NFT´s?</h3>
-                    <p className="definition-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
+                    <p className="definition-txt definition-txt__subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
                     <MainBtn text={'Ver Video'}/>
                 </div>
 

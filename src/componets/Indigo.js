@@ -13,7 +13,15 @@ const Indigo = () =>{
             centerPadding: '60px',
             autoplay:true,    
             slidesToShow: 1.6,
-            arrows:false
+            arrows:false,
+            responsive:[
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow:1
+                    }
+                }
+            ]
       };
 
 

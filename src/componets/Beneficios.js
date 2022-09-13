@@ -6,7 +6,7 @@ import productos from '../assets/productos.svg';
 const Beneficios = ()=>{
     return(
         <>
-            <p className="definition-title">Beneficios NFT´s MARIO HERNÁNDEZ</p>
+            <p className="definition-title definition-title__beneficios">Beneficios NFT´s MARIO HERNÁNDEZ</p>
             <div className="beneficios-wrapCol">
 
                 <div className="beneficios-col">
