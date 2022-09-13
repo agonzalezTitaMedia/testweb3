@@ -572,6 +572,9 @@ footer{
   }
   &-txt{
     margin: 0;
+    @include md2{
+      margin: 7px 0;
+    }
   }
   &-sizeXl{
     font-size: 26px;
@@ -615,12 +618,19 @@ footer{
   }
   &-link{
     display: block;
+    @include md2{
+      margin: 7px 0;
+    }
   }
   &-sub{
     width: 100%;
     padding: 14px 0;
     text-align: center;
     font-size: 12px;
+    @include md2{
+      width: 90%;
+      margin: auto;
+    }
   }
   &-name{
     width: 100%;
@@ -644,6 +654,14 @@ footer{
     flex-flow: column;
     height: 350px;
     justify-content: space-around;
+    @include md2{
+      position: absolute;
+      height: auto;
+      flex-flow: row;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 85%;
+    }
     button{
       background: none;
       color:#B7812C;
@@ -657,6 +675,10 @@ footer{
       background: -webkit-linear-gradient(43deg, rgba(183,129,44,1) 0%, rgba(126,206,255,1) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      @include md2{
+        transform: rotate(0);
+        font-size: 14px;
+      }
     }
   }
 }
