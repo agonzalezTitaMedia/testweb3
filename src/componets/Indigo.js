@@ -27,7 +27,7 @@ const Indigo = () =>{
 
 
     return(
-        <div className="slide-wrap slide-wrap--indigo">
+        <div className="slide-wrap slide-wrap--indigo" id="indigo">
             <div className="slide-col">
             <div className="slide-subTitle">Colección</div>
                     <div className="slide-WrapCircle">

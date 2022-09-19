@@ -24,7 +24,7 @@ const Cobalto = () => {
         };
 
     return (
-        <div className="slide-wrap slide-wrap--zafiro">
+        <div className="slide-wrap slide-wrap--zafiro" id="cobalto">
             <div className="slide-col">
                 <Slider {...settings} className="slide-wrapSlider">
                     <div>

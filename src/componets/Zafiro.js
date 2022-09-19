@@ -24,7 +24,7 @@ const Zafiro = () => {
         };
 
     return (
-        <div className="slide-wrap slide-wrap--zafiro">
+        <div className="slide-wrap slide-wrap--zafiro" id="zafiro">
             <div className="slide-col">
                 <Slider {...settings} className="slide-wrapSlider">
                     <div>
