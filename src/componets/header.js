@@ -19,11 +19,19 @@ const Header = ({connected,onConnect, disConnect}) => {
                 </button>
                 </>
             : <>
-                <button className="header-btnWallet" 
-                    onClick={()=>{onConnect()}}> 
-                    <span className="header-iconWallet"></span> 
-                    Mi billetera
-                </button>
+                <div className="header-wrapWallet">
+                    <button className="header-btnWallet" 
+                        onClick={()=>{onConnect()}}> 
+                        <span className="header-iconWallet"></span> 
+                        Conectar Billetera
+                    </button>
+
+                    <button className="header-questions">
+                        <div className="header-questIcon"></div> 
+                        <div className="header-questTxt">¿Dudas?</div>
+                    </button>
+                </div>
+                
             </> }
 
            
