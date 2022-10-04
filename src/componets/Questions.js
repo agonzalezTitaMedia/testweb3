@@ -10,11 +10,11 @@ const Questions = () => {
         <>
             <div className="questions-wrapMain">
                 <h3 className="questions-title">PREGUNTAS FRECUENTES</h3>
-                <p className="questions-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. </p>
+                
                 <div className="questions-wrapMainQuestions">
                     <div className="questions-rowQuestions">
                         <div className="questions-topRow" onClick={()=>{clickQuestion(1)}}>
-                            <div>¿Pregunta 1?</div>
+                            <div>¿Cómo funcionan los NFT’s?</div>
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion == 1 ? "questions-botRow show" : "questions-botRow" }>

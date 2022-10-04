@@ -52,7 +52,7 @@ const Zafiro = () => {
                 <MainBtn text={'ver NFTS en Opensea'}></MainBtn>
 
                 <a className="slide-beneficiosTxt"> 
-                <span className="slide-beneficiosIcon"></span> 
+                    <span className="slide-beneficiosIcon"></span> 
                 Ver Beneficios</a>
             </div>
         </div>

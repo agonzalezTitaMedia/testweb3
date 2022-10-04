@@ -9,7 +9,6 @@ import Indigo from './componets/Indigo';
 import Cobalto from './componets/Cobalto';
 import Definition from './componets/Definition';
 import Evolution from  './componets/Evolution';
-import Beneficios from './componets/Beneficios';
 import Questions from './componets/Questions';
 import Menu from './componets/Menu';
 
@@ -113,7 +112,7 @@ function App() {
     <Cobalto/>
     <Definition/>
     <Evolution/>
-    <Beneficios/>
+    
     <Questions/>
     <Footer/>
     </>

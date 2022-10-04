@@ -9,7 +9,14 @@ const Definition = () => {
                 <div className="definition-rowTop">
                     <img src={butterfly} alt='nft Mario Hernandez' className="definition-butterfly" />
                     <h3 className="definition-title">¿Qué son los NFT´s?</h3>
-                    <p className="definition-txt definition-txt__subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus.</p>
+                    <p className="definition-txt definition-txt__subTitle">
+                    Un NFT (token no fungible) es una unidad de datos única y no intercambiable almacenada
+en una base de datos digital.
+Los tokens no fungibles pueden tomar la forma de música, fotos y cualquier otro
+coleccionable digital, incluidos libros, blogs o incluso tweets. Los NFT son básicamente
+archivos digitales autenticados o registrados. Los tokens no fungibles se pueden compartir y
+consumir, pero no duplicar, lo que crea escasez digital y prueba de propiedad.
+                        </p>
                     <MainBtn text={'Ver Video'}/>
                 </div>
 
