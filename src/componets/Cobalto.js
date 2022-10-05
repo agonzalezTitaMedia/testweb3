@@ -4,7 +4,7 @@ import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import Card from "./Card";
-import overblur from "../assets/over-blur.png"
+import overblur from "../assets/lujo-colombiano.png"
 
 
 const Cobalto = () => {
@@ -49,10 +49,10 @@ const Cobalto = () => {
                     <span></span>
                 </div>
                 <h2 className="slide-title">COBALTO</h2>
-                <p className="slide-txt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. 
-                </p> 
                 <MainBtn text={'Explorar NFTS'}></MainBtn>
+                <a className="slide-beneficiosTxt"> 
+                    <span className="slide-beneficiosIcon"></span> 
+                Ver Beneficios</a>
             </div>
         </div>
     )
