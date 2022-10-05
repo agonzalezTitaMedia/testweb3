@@ -18,7 +18,7 @@ const Questions = () => {
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion === 1 ? "questions-botRow show" : "questions-botRow" }>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                        Los NFT permiten a los usuarios poseer activos digitales como bienes raices virtuales, arte, ropa digital, momentos de video, etc. El concepto de los activos digitales es similar a las compras dentro de la aplicación de artículos en videojuegos. La gran diferencias de las NFT es su singularidad y la capacidad de transferirse fácilmente a otro propietario gracias a las tecnología blockchain.
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@ const Questions = () => {
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion === 2 ? "questions-botRow show" : "questions-botRow" }>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                        Blockchain es una base de datos compartida e inmutable que facilita el proceso de registrar transacciones y rastrear activos en un foro públicamente transparente. En pocas palabras, es un registro en línea de transacciones. La manera de interactuar con Blockchain es mediante billeteras digitales.
                         </div>
                     </div>
 
@@ -38,7 +38,7 @@ const Questions = () => {
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion === 3 ? "questions-botRow show" : "questions-botRow" }>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                        Una billetera digital es un repositorio personal donde guardamos nuestros activos digitales como criptomonedas y NFT’s . Para descargar e instalar tu billetera haz click aquí https://metamask.io .
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@ const Questions = () => {
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion === 4 ? "questions-botRow show" : "questions-botRow" }>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                        Los NFT se compran con criptomonedas o con tarjetas de crédito en marketplaces que hay en la red, en este caso estamos en Opensea. Los NFT´S quedan almacenados en las billeteras digitales de blockchain de sus dueños.
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@ const Questions = () => {
                             <span className="questions-downQuestion"></span>
                         </div>
                         <div className={ numberQuestion === 5 ? "questions-botRow show" : "questions-botRow" }>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. 
+                        La colección de Oro Azul de Mario Hernández es la primera de NFT´s  de una casa de lujo colombiana con 165 piezas digitales exclusivas hechas 1 a1 por Lorenzo Hernández, director creativo de la marca e hijo del fundador Mario Hernández. Tener un NFT es la puerta de acceso a una serie de beneficios en la marca incluyendo productos de edición limitada de Mario Hernández, servicio preferencial, y pertenencia exclusiva dentro de la marca.
                         </div>
                     </div>
 
